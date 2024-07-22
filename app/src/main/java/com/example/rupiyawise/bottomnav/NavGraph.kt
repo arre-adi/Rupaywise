@@ -21,7 +21,7 @@ fun BottomNavGraph(
        startDestination = BottomBarScreen.Home.route
    ) {
        composable(route=BottomBarScreen.Home.route){
-           RupiyawiseApp(navController)
+           RupiyawiseApp()
        }
         composable(route=BottomBarScreen.Statistics.route){
             StatsScreen()
