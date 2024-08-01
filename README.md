@@ -2,7 +2,10 @@ Rupiyawise is a mobile app that helps you track your finances, segregate and gro
 Here is a video of the ML model depicting how it predicts, analyzes, and generates content and suggestions tailored for you based on your expenditure and investment patterns, taking into account your goals, diaspora, family background, and location as well.
 The algorithm also helps you predict estimated expenditure for every next month and the ideal expenditure you should have to achieve your financial goals and attain an ideal profile.
 
-https://github.com/user-attachments/assets/20bc3580-0aa5-497e-a3fc-634393c2835f
+
+
+https://github.com/user-attachments/assets/2fb91aa5-7701-48a5-8b69-0fe7c479fddc
+
 
 The following is a walkthrough of the app, guiding you through various features:
 - The home screen
@@ -10,3 +13,9 @@ The following is a walkthrough of the app, guiding you through various features:
 - A screen where you can view short videos that provide content tailored to your goals and investment plans, and suggest bank schemes that best meet your needs and help you leverage your current financial condition and position
 - A screen that helps you add expenses manually and also sort your expenses through a drag and drop feature
 - Voice navigation to make the app inclusive and easily accesible for each and everyone
+
+
+
+
+
+Here is the user interface to give you a sneakpeek of the app
