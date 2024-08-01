@@ -19,3 +19,6 @@ The following is a walkthrough of the app, guiding you through various features:
 
 
 Here is the user interface to give you a sneakpeek of the app
+![image](https://github.com/user-attachments/assets/a1e4db20-905e-4248-b5b2-443a3575c018)
+![image](https://github.com/user-attachments/assets/e70599c5-4c52-4171-a1e8-f0158cda08c1)
+![image](https://github.com/user-attachments/assets/1b705fcc-be4c-4748-aa8d-bbcc355f57ca)
