@@ -31,8 +31,8 @@ import java.text.SimpleDateFormat
 import java.util.*
 import java.io.InputStream
 import java.time.LocalDate
+import java.time.ZoneId
 import java.time.format.DateTimeFormatter
-
 
 data class Transaction(val date: Date, val amount: Double, val category: String)
 data class Expense(val category: String, val amount: Double, val color: Color)
@@ -65,9 +65,14 @@ class ExpenseData(jsonString: String) {
         firstDate = transactions.first().date
     }
 
-    fun getExpenses(isDebit: Boolean, timeFrame: String): List<Expense> {
+    fun getExpenses(isDebit: Boolean, timeFrame: String, selectedDate: LocalDate? = null): List<Expense> {
         val filteredTransactions = when (timeFrame) {
-            "Today" -> transactions.filter { isSameDay(it.date, firstDate) }
+            "Today" -> transactions.filter { if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                isSameDay(it.date, Date.from(selectedDate?.atStartOfDay(ZoneId.systemDefault())?.toInstant()))
+            } else {
+                TODO("VERSION.SDK_INT < O")
+            }
+            }
             "Weekly" -> transactions.filter { isWithinWeek(it.date, firstDate) }
             else -> transactions // "Monthly"
         }
@@ -84,6 +89,7 @@ class ExpenseData(jsonString: String) {
             }
             .sortedByDescending { it.amount }
     }
+
 
     private fun isSameDay(date1: Date, date2: Date): Boolean {
         val cal1 = Calendar.getInstance().apply { time = date1 }
@@ -121,12 +127,7 @@ class ExpenseData(jsonString: String) {
 fun ExpenseTrackerApp(expenseData: ExpenseData, onExpenseClick: (Expense) -> Unit) {
     var isDebit by remember { mutableStateOf(true) }
     var timeFrame by remember { mutableStateOf("Today") }
-    var selectedDate by remember { if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-        mutableStateOf(LocalDate.of(2023, 6, 1))
-    } else {
-        TODO("VERSION.SDK_INT < O")
-    }
-    }
+    var selectedDate by remember { mutableStateOf(LocalDate.of(2023, 6, 1)) }
 
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -148,19 +149,17 @@ fun ExpenseTrackerApp(expenseData: ExpenseData, onExpenseClick: (Expense) -> Uni
                 TabButton(text = "Credit", selected = !isDebit) { isDebit = false }
             }
 
+            Spacer(modifier = Modifier.height(12.dp))
+
+            // Pass the selectedDate to getExpenses when "Today" is selected
+            PieChart(expenses = expenseData.getExpenses(isDebit, timeFrame, if (timeFrame == "Today") selectedDate else null))
 
             Spacer(modifier = Modifier.height(12.dp))
 
-            PieChart(expenses = expenseData.getExpenses(isDebit, timeFrame))
-
-            Spacer(modifier = Modifier.height(12.dp))
-
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                DateSelector(
-                    selectedDate = selectedDate,
-                    onDateSelected = { selectedDate = it }
-                )
-            }
+            DateSelector(
+                selectedDate = selectedDate,
+                onDateSelected = { selectedDate = it }
+            )
 
             Spacer(modifier = Modifier.height(12.dp))
             Surface(
@@ -171,14 +170,13 @@ fun ExpenseTrackerApp(expenseData: ExpenseData, onExpenseClick: (Expense) -> Uni
                         shape = RoundedCornerShape(24.dp)
                     ),
                 color = white, // Light green color
-
                 shape = RoundedCornerShape(topStart = 24.dp, topEnd = 24.dp)
             ) {
                 Column {
                     Row(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding( 12.dp),
+                            .padding(12.dp),
                         horizontalArrangement = Arrangement.SpaceAround
                     ) {
                         TimeFrameButton(text = "Today", selected = timeFrame == "Today") {
@@ -193,14 +191,17 @@ fun ExpenseTrackerApp(expenseData: ExpenseData, onExpenseClick: (Expense) -> Uni
                     }
                     Spacer(modifier = Modifier.height(24.dp))
                     ExpenseList(
-                        expenses = expenseData.getExpenses(isDebit, timeFrame),
+                        expenses = expenseData.getExpenses(isDebit, timeFrame, if (timeFrame == "Today") selectedDate else null),
                         onItemClick = onExpenseClick,
                     )
                 }
             }
+        }
     }
 }
-}
+
+
+
 @Composable
 fun TabButton(text: String, selected: Boolean, onClick: () -> Unit) {
     val backgroundColor = if (selected) loblue else Color.Transparent
@@ -212,7 +213,7 @@ fun TabButton(text: String, selected: Boolean, onClick: () -> Unit) {
             contentColor = textColor
         ),
         shape = RoundedCornerShape(6.dp),
-        ) {
+    ) {
         Text(
             text = text,
             color = textColor,
@@ -242,7 +243,7 @@ fun TimeFrameButton(text: String, selected: Boolean, onClick: () -> Unit) {
         )
 
     }
-    }
+}
 
 
 @Composable
