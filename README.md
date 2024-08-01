@@ -2,34 +2,34 @@
 
 ![Rupiyawise Logo](https://placeholder-image-url.com/rupiyawise-logo.png)
 
-## 📱 About the App
+##  About the App
 
 Rupiyawise is a comprehensive mobile app designed to revolutionize your financial management experience. With powerful features and an intuitive interface, Rupiyawise helps you:
 
-- 📊 Track your finances effortlessly
-- 🗂️ Segregate and group expenses for easier understanding
-- 🤖 Access personalized content generated through AI
-- 🗣️ Navigate the app using voice commands
+-  Track your finances effortlessly
+-  Segregate and group expenses for easier understanding
+-  Get information about the bank schems thathelp you levrage your financial conditions
+-  Access personalized content generated through AI
+-  Navigate the app using voice commands
 
-## 🎥 ML Model Demo
+##  ML Model Demo
 
-Our advanced machine learning model predicts, analyzes, and generates content tailored to your unique financial situation. Watch how it takes into account your:
+Our  machine learning model predicts, analyzes, and generates content tailored to your unique financial situation. Watch how it takes into account your:
 
 - Expenditure patterns
 - Investment strategies
 - Financial goals
 - Diaspora
-- Family background
 - Location
 
 The algorithm also predicts your estimated monthly expenditure and suggests ideal spending habits to achieve your financial goals.
 
 [Watch ML Model Demo](https://github.com/user-attachments/assets/2fb91aa5-7701-48a5-8b69-0fe7c479fddc)
 
-## 🚀 Features
+##  Features
 
 ### 1. Home Screen
-Your financial dashboard at a glance.
+A basic financial dashboard to keep a check on earnings, expenditure, track budget and set goal
 
 ### 2. Expense Tracking
 - Automatic categorization of expenses
@@ -37,7 +37,7 @@ Your financial dashboard at a glance.
 - Cash debit tracking
 
 ### 3. Personalized Content
-- Short, tailored videos based on your goals and investment plans
+- Short, tailored AI genrtaed videos based on your goals and investment plans
 - Suggested bank schemes to optimize your financial position
 
 ### 4. Manual Expense Management
@@ -45,9 +45,9 @@ Your financial dashboard at a glance.
 - Sort expenses with a convenient drag-and-drop feature
 
 ### 5. Voice Navigation
-Making financial management accessible to everyone.
+Making financial management accessible to everyone and promoting inclusivity
 
-## 📸 App Preview
+##  App Preview
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a1e4db20-905e-4248-b5b2-443a3575c018" width="20%" alt="Home Screen" />
@@ -56,7 +56,7 @@ Making financial management accessible to everyone.
   <img src="https://github.com/user-attachments/assets/1b705fcc-be4c-4748-aa8d-bbcc355f57ca" width="20%" alt="Manual Expense Management" />
 </p>
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" alt="Android Studio" width="40" height="40"/>
