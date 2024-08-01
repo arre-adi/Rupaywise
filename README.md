@@ -1,6 +1,5 @@
 # Rupiyawise
 
-![Rupiyawise Logo](https://placeholder-image-url.com/rupiyawise-logo.png)
 
 ##  About the App
 
