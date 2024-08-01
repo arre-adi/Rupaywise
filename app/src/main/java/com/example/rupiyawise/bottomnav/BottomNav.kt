@@ -21,6 +21,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Color.Companion.Black
 import androidx.compose.ui.graphics.Color.Companion.Green
+import androidx.compose.ui.graphics.VertexMode
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -31,9 +32,12 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.example.rupiyawise.BottomBarScreen
+import com.example.rupiyawise.ui.theme.loblue
+import com.example.rupiyawise.ui.theme.vermilion
 
 
-@Composable @Preview(showBackground = true, showSystemUi = true)
+@Composable
+@Preview(showBackground = true, showSystemUi = true)
 fun MainScreen() {
     val navController = rememberNavController()
 
@@ -56,7 +60,6 @@ fun BottomBar(navController: NavHostController) {
         BottomBarScreen.Statistics,
         BottomBarScreen.Reels,
         BottomBarScreen.Categorize,
-        BottomBarScreen.Others
     )
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentDestination = navBackStackEntry?.destination
@@ -112,10 +115,11 @@ fun AddItem(
     ) {
         Icon(
             painter = painterResource(id = screen.icon),
-            tint = if (selected)Green else Black,
+            tint = if (selected) vermilion else loblue,
             contentDescription = null
         )
 
     }
 }
+
 

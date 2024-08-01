@@ -1,11 +1,6 @@
 package com.example.rupiyawise
 
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Home
 
-sealed class Screens(route:String) {
-//    object submitEcoBrick : Screens("submit_eco_brick")
-}
 
 sealed class BottomBarScreen(
     val route: String,
@@ -19,22 +14,19 @@ sealed class BottomBarScreen(
 
     object Statistics: BottomBarScreen(
         route = "statistics",
-        icon = R.drawable.baseline_auto_graph_24
+        icon = R.drawable.statsss
     )
 
 
     object Reels: BottomBarScreen(
         route = "reels",
-        icon =  R.drawable.baseline_movie_filter_24,
+        icon =  R.drawable.vssada,
     )
 
     object Categorize: BottomBarScreen(
         route = "categorize",
-        icon = R.drawable.baseline_filter_alt_24
+        icon = R.drawable.oothers
     )
-    object Others: BottomBarScreen(
-        route = "others",
-        icon = R.drawable.baseline_more_horiz_24
-    )
+
 
 }

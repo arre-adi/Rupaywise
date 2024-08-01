@@ -1,0 +1,265 @@
+{
+    "Sheet1": [
+      {
+        "Date": "2023-06-01",
+        "Amount": -152,
+        "Expense Name": "Food"
+      },
+      {
+        "Date": "2023-06-01",
+        "Amount": -151,
+        "Expense Name": "Food"
+      },
+      {
+        "Date": "2023-06-01",
+        "Amount": -150,
+        "Expense Name": "Food"
+      },
+      {
+        "Date": "2023-06-01",
+        "Amount": -180,
+        "Expense Name": "Shopping"
+      },
+      {
+        "Date": "2023-06-01",
+        "Amount": -4030,
+        "Expense Name": "Medication"
+      },
+      {
+        "Date": "2023-06-01",
+        "Amount": -150,
+        "Expense Name": "Food"
+      },
+      {
+        "Date": "2023-06-01",
+        "Amount": 1000,
+        "Expense Name": "Friend"
+      },
+      {
+        "Date": "2023-06-01",
+        "Amount": 2500,
+        "Expense Name": "Friend"
+      },
+      {
+        "Date": "2023-06-02",
+        "Amount": -30,
+        "Expense Name": "Food"
+      },
+      {
+        "Date": "2023-06-03",
+        "Amount": -200,
+        "Expense Name": "Shopping"
+      },
+      {
+        "Date": "2023-06-04",
+        "Amount": -30,
+        "Expense Name": "Food"
+      },
+      {
+        "Date": "2023-06-04",
+        "Amount": -200,
+        "Expense Name": "Food"
+      },
+      {
+        "Date": "2023-06-05",
+        "Amount": -30,
+        "Expense Name": "Others"
+      },
+      {
+        "Date": "2023-06-06",
+        "Amount": -100,
+        "Expense Name": "Food"
+      },
+      {
+        "Date": "2023-06-06",
+        "Amount": 155000,
+        "Expense Name": "Salary"
+      },
+      {
+        "Date": "2023-06-07",
+        "Amount": -50,
+        "Expense Name": "Others"
+      },
+      {
+        "Date": "2023-06-07",
+        "Amount": -50,
+        "Expense Name": "Others"
+      },
+      {
+        "Date": "2023-06-07",
+        "Amount": 1000,
+        "Expense Name": "Salary"
+      },
+      {
+        "Date": "2023-06-08",
+        "Amount": -30,
+        "Expense Name": "Shopping"
+      },
+      {
+        "Date": "2023-06-09",
+        "Amount": -150,
+        "Expense Name": "Shopping"
+      },
+      {
+        "Date": "2023-06-10",
+        "Amount": 1500,
+        "Expense Name": "Salary"
+      },
+      {
+        "Date": "2023-06-11",
+        "Amount": 2500,
+        "Expense Name": "Friend"
+      },
+      {
+        "Date": "2023-06-11",
+        "Amount": -300,
+        "Expense Name": "Medication"
+      },
+      {
+        "Date": "2023-06-11",
+        "Amount": -100,
+        "Expense Name": "Medication"
+      },
+      {
+        "Date": "2023-06-12",
+        "Amount": 2500,
+        "Expense Name": "Cashback"
+      },
+      {
+        "Date": "2023-06-12",
+        "Amount": -30,
+        "Expense Name": "Food"
+      },
+      {
+        "Date": "2023-06-12",
+        "Amount": -75,
+        "Expense Name": "Shopping"
+      },
+      {
+        "Date": "2023-06-13",
+        "Amount": 1500,
+        "Expense Name": "Stocks"
+      },
+      {
+        "Date": "2023-06-14",
+        "Amount": -200,
+        "Expense Name": "Entertainment"
+      },
+      {
+        "Date": "2023-06-15",
+        "Amount": 500,
+        "Expense Name": "Stocks"
+      },
+      {
+        "Date": "2023-06-16",
+        "Amount": -20,
+        "Expense Name": "Food"
+      },
+      {
+        "Date": "2023-06-16",
+        "Amount": 500,
+        "Expense Name": "Stocks"
+      },
+      {
+        "Date": "2023-06-17",
+        "Amount": 2500,
+        "Expense Name": "Salary"
+      },
+      {
+        "Date": "2023-06-18",
+        "Amount": -20,
+        "Expense Name": "Food"
+      },
+      {
+        "Date": "2023-06-18",
+        "Amount": 2000,
+        "Expense Name": "Friend"
+      },
+      {
+        "Date": "2023-06-18",
+        "Amount": -150,
+        "Expense Name": "Shopping"
+      },
+      {
+        "Date": "2023-06-19",
+        "Amount": -50,
+        "Expense Name": "Food"
+      },
+      {
+        "Date": "2023-06-20",
+        "Amount": -150,
+        "Expense Name": "Entertainment"
+      },
+      {
+        "Date": "2023-06-21",
+        "Amount": -100,
+        "Expense Name": "Food"
+      },
+      {
+        "Date": "2023-06-21",
+        "Amount": -200,
+        "Expense Name": "Others"
+      },
+      {
+        "Date": "2023-06-22",
+        "Amount": -30,
+        "Expense Name": "Shopping"
+      },
+      {
+        "Date": "2023-06-23",
+        "Amount": -300,
+        "Expense Name": "Entertainment"
+      },
+      {
+        "Date": "2023-06-24",
+        "Amount": -200,
+        "Expense Name": "Shopping"
+      },
+      {
+        "Date": "2023-06-25",
+        "Amount": -30,
+        "Expense Name": "Food"
+      },
+      {
+        "Date": "2023-06-26",
+        "Amount": -50,
+        "Expense Name": "Food"
+      },
+      {
+        "Date": "2023-06-26",
+        "Amount": -30,
+        "Expense Name": "Shopping"
+      },
+      {
+        "Date": "2023-06-27",
+        "Amount": -100,
+        "Expense Name": "Entertainment"
+      },
+      {
+        "Date": "2023-06-27",
+        "Amount": -500,
+        "Expense Name": "Shopping"
+      },
+      {
+        "Date": "2023-06-28",
+        "Amount": -30,
+        "Expense Name": "Food"
+      },
+      {
+        "Date": "2023-06-28",
+        "Amount": -30,
+        "Expense Name": "Food"
+      },
+      {
+        "Date": "2023-06-29",
+        "Amount": -75,
+        "Expense Name": "Food"
+      },
+      {
+        "Date": "2023-06-30",
+        "Amount": -75,
+        "Expense Name": "Food"
+      }
+    ]
+  }
+  
