@@ -17,7 +17,7 @@ The following is a walkthrough of the app, guiding you through various features:
 
 Here is the user interface to give you a sneak peek of the app:
 
-<p float="left">
+<p float="center">
   <img src="https://github.com/user-attachments/assets/a1e4db20-905e-4248-b5b2-443a3575c018" width="20%" />
   <img src="https://github.com/user-attachments/assets/e70599c5-4c52-4171-a1e8-f0158cda08c1" width="20%" /> 
   <img src = "https://github.com/user-attachments/assets/a5573fbb-3598-4ef8-b9a5-072b88da4a1b" width="20%"/>
