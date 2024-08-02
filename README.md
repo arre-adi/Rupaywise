@@ -46,6 +46,9 @@ A basic financial dashboard to keep a check on earnings, expenditure, track budg
 ### 5. Voice Navigation
 Making financial management accessible to everyone and promoting inclusivity
 
+
+
+
 ##  App User Interface
 
 <p align="center">
@@ -54,6 +57,12 @@ Making financial management accessible to everyone and promoting inclusivity
   <img src="https://github.com/user-attachments/assets/a5573fbb-3598-4ef8-b9a5-072b88da4a1b" width="20%" alt="Personalized Content" />
   <img src="https://github.com/user-attachments/assets/1b705fcc-be4c-4748-aa8d-bbcc355f57ca" width="20%" alt="Manual Expense Management" />
 </p>
+
+
+##  App Demo Video
+
+  [Watch App Demo](https://github.com/user-attachments/assets/593148d9-16d4-4546-a7db-62e34b18ebef)
+
 
 ## Tech Stack
 
