@@ -1,5 +1,3 @@
-@file:OptIn(ExperimentalMaterial3Api::class)
-
 package com.example.rupiyawise
 
 
@@ -64,9 +62,14 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
+import com.example.rupiyawise.ui.theme.RupiyawiseTheme
 import com.example.rupiyawise.ui.theme.boblue
 import com.example.rupiyawise.ui.theme.bonewhite
 import com.example.rupiyawise.ui.theme.gradient
@@ -695,5 +698,18 @@ fun ScreenWithFloatingMic(
             },
             spokenText = spokenText
         )
+    }
+}
+
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun PreviewRupiyawiseApp() {
+    RupiyawiseTheme {
+        val navController = rememberNavController()
+        NavHost(navController = navController, startDestination = "home") {
+            composable("home") {
+                RupiyawiseApp(navController = navController)
+            }
+        }
     }
 }
