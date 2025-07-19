@@ -1,9 +1,9 @@
-# Rupiyawise
+# Rupaywise
 
 
 ##  About the App
 
-Rupiyawise is a comprehensive mobile app designed to revolutionize your financial management experience. With powerful features and an intuitive interface, Rupiyawise helps you:
+Rupaywise is a comprehensive mobile app designed to revolutionize your financial management experience. With powerful features and an intuitive interface, Rupaywise helps you:
 
 -  Track your finances effortlessly
 -  Segregate and group expenses for easier understanding
