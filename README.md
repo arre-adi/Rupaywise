@@ -69,9 +69,9 @@ Making financial management accessible to everyone and promoting inclusivity
 
 
 ##  App Demo Video
-<p align="center">
-  [Watch App Demo](https://github.com/user-attachments/assets/593148d9-16d4-4546-a7db-62e34b18ebef)
-</p>
+
+  (https://github.com/user-attachments/assets/593148d9-16d4-4546-a7db-62e34b18ebef)
+
 
 ## Tech Stack
 
