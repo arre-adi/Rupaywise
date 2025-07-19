@@ -10,11 +10,6 @@
   <img src="https://raw.githubusercontent.com/JetBrains/compose-jb/master/artwork/compose-logo.svg" alt="Jetpack Compose" width="40" height="40"/>
 </p>
 
-- **Android Studio**: Our primary IDE for Android app development
-- **Jetpack Compose**: Modern toolkit for building native Android UI
-- **Kotlin**: The programming language powering our Android app
-- **Python**: Used for backend services and machine learning models
-
 ##  About the App
 
 Rupaywise is a comprehensive mobile app designed to revolutionize your financial management experience. With powerful features and an intuitive interface, Rupaywise helps you:
@@ -77,7 +72,19 @@ Making financial management accessible to everyone and promoting inclusivity
 
   [Watch App Demo](https://github.com/user-attachments/assets/593148d9-16d4-4546-a7db-62e34b18ebef)
 
+## Tech Stack
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" alt="Android Studio" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/JetBrains/compose-jb/master/artwork/compose-logo.svg" alt="Jetpack Compose" width="40" height="40"/>
+</p>
+
+- **Android Studio**: Our primary IDE for Android app development
+- **Jetpack Compose**: Modern toolkit for building native Android UI
+- **Kotlin**: The programming language powering our Android app
+- **Python**: Used for backend services and machine learning models
 
 <p align="center">
   Team Wunderkinds
