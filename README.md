@@ -15,7 +15,6 @@
 - **Kotlin**: The programming language powering our Android app
 - **Python**: Used for backend services and machine learning models
 
----
 ##  About the App
 
 Rupaywise is a comprehensive mobile app designed to revolutionize your financial management experience. With powerful features and an intuitive interface, Rupaywise helps you:
