@@ -6,7 +6,7 @@
 ** Top 20 Finalist | Bank of Baroda Hackathon 2024**  
 *Selected among 500+ registered teams nationwide*
 
-</dib> 
+</div> 
 ## Tech Stack
 
 <p align="center">
