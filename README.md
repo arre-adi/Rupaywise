@@ -1,7 +1,7 @@
 # Rupaywise
 
-<p align="center">
 ##  Achievement
+<p align="center">
  Top 20 Projects | Bank of Baroda Hackathon 2024  
 Selected among 500+ registered teams nationwide
 </p> 
